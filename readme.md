@@ -24,4 +24,4 @@ Love it? Really? Thanks. Go to Twitter and [follow me](http://twitter.com/kostya
 
 ### Help & Support
 
-I can help you on [oficial Anchor Forums](//forums/anchorcms.com/discussion/write-theme), or [in Twitter](//twitter.com/kostyakozak).
+I can help you on [oficial Anchor Forums](http://forums.anchorcms.com/discussion/write-theme), or [in Twitter](//twitter.com/kostyakozak).
