@@ -1,0 +1,16 @@
+/*
+    Theme name: Write
+    Description: A super minimal, typography-direction theme for Anchor CMS.
+    Author name: Kostya Kozak
+    Anchor version: 0.9 - 1.0
+    Twitter: http://twitter.com/kostyakozak
+    License: http://licence.visualidiot.com
+    
+    Oh, baby! It's free! Go to http://github.com/koskz and grab it.
+*/
+
+@import "normalize.css";
+@import "style.css";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Pacifico&subset=latin,cyrillic);

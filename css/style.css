@@ -1,0 +1,251 @@
+/*
+    Theme name: Write
+    Description: A super minimal, typography-direction theme for Anchor CMS.
+    Author name: Kostya Kozak
+    Anchor version: 0.9 - 1.0
+    Twitter: http://twitter.com/kostyakozak
+    License: http://licence.visualidiot.com
+    
+    Oh, baby! It's free! Go to http://github.com/koskz and grab it.
+*/
+
+
+html { 
+  height: 100%;
+}
+
+body {
+font-family: Open Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #000; 
+  position:relative;
+  height: 100%;
+}
+
+a {  
+color: rgba(50,50,50,0.79);
+font-weight: 600;
+text-decoration: none;
+-webkit-transition: color .15s ease-out;
+-moz-transition: color .15s ease-out;
+-o-transition: color .15s ease-out;
+transition: color .15s ease-out;
+}
+
+a:hover {
+	color: rgba(0,0,0,0.97);
+}
+
+article a{
+color:black;
+	-webkit-transition: color .15s ease-out;
+-moz-transition: color .15s ease-out;
+-o-transition: color .15s ease-out;
+transition: color .15s ease-out;
+}
+
+article a:hover { 
+	color: rgba(79,79,79,1);
+}
+
+* {
+  box-sizing:border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.content {
+  max-width:720px; 
+  margin:0 auto; 
+  width:100%; 
+  padding:0 20px 20px 20px;
+}
+
+.content-wrapper {
+  margin-top:0px;
+  border-top:1px solid #ddd;
+}
+
+.bg-dark {  background:#222; color:#fff; }
+.bg-white { background:#fff; color:#222; }
+
+.site-footer .maker {color:#999;}
+
+.hover:hover {
+  -webkit-transition: background-position, .4s;
+  background-position:10px center;
+  background-color:lighten(cyan,35%);
+  border:1px solid darken(cyan,10%);
+  padding-left:40px;
+}
+
+.issue-hover {background-color:cyan;border:1px solid darken(cyan,10%);background-color:lighten(cyan,35%);}
+.issue-hover:hover {
+  -webkit-transition: background-color .3s;
+  background-color:lighten(cyan,10%);
+}
+
+.circle { border-radius: 9999px; }
+
+.section-padding {  padding:60px 0 40px 0;}
+.polaroid-padding {padding-top:40px;padding-bottom:20px;}
+.half-padding {     padding:20px 0;}
+.header-padding {   padding:0 0 40px 0;}
+.padding-top {      padding-top:40px;}
+.padding-top-half { padding-top:20px;}
+.padding-bottom {   padding-bottom: 40px;}
+
+.no-margin {        margin:0;}
+.margin-top-20 {    margin-top:80px;} 
+.bottom-clear {     margin-bottom:40px;}
+.centered {         margin:0 auto;}
+.section-margin {
+  margin-top:20px;
+  margin-bottom:60px;
+}
+
+.top {
+	padding: 0 0 40px 0;
+	
+}
+
+.site-logo { font-family: 'Pacifico', cursive;}
+.mega {font-size:130px; margin-bottom: 45px;}  
+.center {text-align:center;}
+.serif {font-family:"ff-meta-serif-web-pro";}
+.tagline {font-size:16px!important;color:#777;}
+.sans-serif {font-family: 'Montserrat', sans-serif;}
+.caps {text-transform:uppercase;}
+.title-spacing {letter-spacing:.1em;}
+.small-title {font-size:16px; color:rgba(0,0,0,0.66);}  
+.lh-1 {line-height:1;}
+.h2 {font-size:32px;}
+
+.pagination a{
+font-weight: 400; 
+font-size: 13px;
+color: #888;
+text-transform: uppercase;
+}
+
+.pagination a:hover {
+	color:#333;
+}
+
+
+.section-title {
+  font-size:48px;
+}
+
+.text-link { 
+  text-decoration:none;
+  color:#333;
+}
+
+p { 
+  font-size:20px;
+  line-height:1.5; 
+}
+
+.meta { 
+  font-size:12px;
+  color:#999;
+}
+
+h1,h2,h3,h4,h5,h6 {font-weight:100;}
+
+.gray-border { border:1px solid #ccc; }
+
+.link-highlight {
+  text-decoration:none;
+  font-size:16px;
+  color:#111;
+  display:inline-block;
+  text-transform: uppercase;
+  -webkit-transition: padding, .4s;
+  letter-spacing:.1em;
+  padding:20px;
+  border-radius:4px;
+  margin-bottom:20px;
+  width:auto;
+  color:#222;
+  font-family:"proxima-nova";
+  background-size:20px 20px;
+}
+
+.pages {
+  border-top:1px solid #eee;
+  margin-top: 18px;
+  
+}
+
+nav {
+	max-width: 720px;
+margin: 0 auto;
+width: 100%;
+padding: 0 20px 20px 20px;
+}
+
+.right {
+	margin-right:25px;
+}
+
+.footer {
+  font-family: 'Montserrat', sans-serif;
+  font-size:13px;
+  font-weight: 400;
+  background:#fff;
+  opacity:0.6; 
+  color:#3e3a3a;
+  border-top:1px solid #eee;
+  margin-top: 10px;
+  padding:20px 0; 
+  line-height:2;
+  .text-link {color:darken(cyan, 40%);padding-right:20px; -webkit-transition:top .2s;top:0;position:relative;}
+  .text-link:hover {-webkit-transition: color ease-in .2s; color:#999;}
+  -webkit-transition: opacity .15s ease-out;
+-moz-transition: opacity .15s ease-out;
+-o-transition: opacity .15s ease-out;
+transition: opacity .15s ease-out;
+}
+
+.footer:hover {
+	opacity: 1.0;
+
+}
+
+hr{
+    border: 0;
+	border-top: 1px solid #ddd;
+	color: #ddd;
+	padding-top: 40px;
+}
+
+.footer a{
+	color:black;
+	border-bottom: 1px solid #000;
+	opacity:0.6;
+	  -webkit-transition: opacity .15s ease-out;
+-moz-transition: opacity .15s ease-out;
+-o-transition: opacity .15s ease-out;
+transition: opacity .15s ease-out;
+}
+.site-footer a:hover{
+opacity: 1.0;
+	color:black;
+	border-bottom: 1px solid #000;
+}
+
+
+.db {display:block;}
+
+
+@media screen and (max-width:480px) {
+ .h2 {font-size:24px;}
+ .mega {font-size:96px;} 
+ .mobile-small {font-size:16px!important;}
+ .mobile-hide {display:none;}
+}
