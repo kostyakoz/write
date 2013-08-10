@@ -1,8 +1,8 @@
-  <footer class="footer center">
+    <footer class="footer center">
   
-    <?php echo date('Y'); ?> &copy; / Proudly powered by <a href="//anchorcms.com" target="_blank">Anchor</a>
+        <?php echo date('Y'); ?> &copy; / Proudly powered by <a href="//anchorcms.com" target="_blank">Anchor</a>
     
-  </footer>
+    </footer>
     
     </body>
 </html>
